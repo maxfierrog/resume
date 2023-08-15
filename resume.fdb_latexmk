@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1692094767 "/Users/maxfierro/pro/resume/resume.tex" "resume.pdf" "resume" 1692094768 0
-  "/Users/maxfierro/pro/resume/resume.tex" 1692094767 8438 321361838c31d9079ce65d91f54a7e0f ""
+["pdflatex"] 1692095876 "/Users/maxfierro/pro/resume/resume.tex" "resume.pdf" "resume" 1692095876 0
+  "/Users/maxfierro/pro/resume/resume.tex" 1692095875 8433 e098205722f9eb7c33f043e12a491c82 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm" 1136768653 1328 c834bbb027764024c09d3d2bf908b5f0 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm" 1136768653 1324 c910af8c371558dc20f2d7822f66fe64 ""
@@ -88,9 +88,9 @@
   "/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1692081553 4623355 b8cad38412faebe1ce5b780a45db67bd ""
   "/usr/local/texlive/2023/texmf-var/web2c/pdftex/pdflatex.fmt" 1692081506 7883456 d5e7317d0dee96ab234ced8d6d51a07d ""
   "/usr/local/texlive/2023/texmf.cnf" 1678822455 577 1b2b1af17af2508fb20dd85783af4050 ""
-  "resume.aux" 1692094768 1211 881adb501f9458a85144934be9fe5c18 "pdflatex"
-  "resume.out" 1692094768 690 27346706539f542e4d7646784528e9d5 "pdflatex"
-  "resume.tex" 1692094767 8438 321361838c31d9079ce65d91f54a7e0f ""
+  "resume.aux" 1692095876 1211 881adb501f9458a85144934be9fe5c18 "pdflatex"
+  "resume.out" 1692095876 690 27346706539f542e4d7646784528e9d5 "pdflatex"
+  "resume.tex" 1692095875 8433 e098205722f9eb7c33f043e12a491c82 ""
   (generated)
   "resume.aux"
   "resume.log"
