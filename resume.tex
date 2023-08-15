@@ -1,10 +1,3 @@
-%-------------------------
-% Resume in Latex
-% Author : Jake Gutierrez
-% Based off of: https://github.com/sb2nov/resume
-% License : MIT
-%------------------------
-
 \documentclass[letterpaper,11pt]{article}
 
 \usepackage{latexsym}
@@ -35,7 +28,7 @@
 
 \pagestyle{fancy}
 \fancyhf{} % clear all header and footer fields
-\fancyfoot{}
+\fancyfoot[RO, RE]{\small{Updated Tuesday, August 15th, 2023}}
 \renewcommand{\headrulewidth}{0pt}
 \renewcommand{\footrulewidth}{0pt}
 
@@ -71,22 +64,29 @@
 \newcommand{\resumeSubheading}[4]{
   \vspace{-2pt}\item
     \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
-      \textbf{#1} & #2 \\
+      \textbf{#1} & \small#2 \\
       \textit{\small#3} & \textit{\small #4} \\
     \end{tabular*}\vspace{-7pt}
 }
 
-\newcommand{\resumeSubSubheading}[2]{
+\newcommand{\resumeSubSubheading}[1]{
     \item
     \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
-      \textit{\small#1} & \textit{\small #2} \\
+      \small#1 \\
     \end{tabular*}\vspace{-7pt}
 }
 
-\newcommand{\resumeProjectHeading}[2]{
+\newcommand{\resumeAffiliationSubheading}[2]{
+  \item
+  \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+    \small#1 & \textit{\small #2} \\
+  \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[1]{
     \item
     \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
-      \small#1 & #2 \\
+      \small#1 \\
     \end{tabular*}\vspace{-7pt}
 }
 
@@ -111,105 +111,106 @@
 %   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
 % \end{tabular*}
 
-\begin{center}
-    \textbf{\Huge \scshape Jake Ryan} \\ \vspace{1pt}
-    \small 123-456-7890 $|$ \href{mailto:x@x.com}{\underline{jake@su.edu}} $|$ 
-    \href{https://linkedin.com/in/...}{\underline{linkedin.com/in/jake}} $|$
-    \href{https://github.com/...}{\underline{github.com/jake}}
-\end{center}
+\begin{flushleft}
+    \textbf{\Huge \scshape Max Fierro} \\ \vspace{1pt}
+    \small (619) 496-1150 $|$ 
+    \href{mailto:maxfierro@berkeley.com}{\underline{maxfierro@berkeley.edu}} $|$ 
+    \href{https://www.maxfierro.me}{\underline{www.maxfierro.me}}
+\end{flushleft}
 
 
 %-----------EDUCATION-----------
-\section{Education}
+\section{Academic History}
   \resumeSubHeadingListStart
     \resumeSubheading
-      {Southwestern University}{Georgetown, TX}
-      {Bachelor of Arts in Computer Science, Minor in Business}{Aug. 2018 -- May 2021}
-    \resumeSubheading
-      {Blinn College}{Bryan, TX}
-      {Associate's in Liberal Arts}{Aug. 2014 -- May 2018}
+      {University of California, Berkeley}{Aug. 2021 -- June 2025}
+      {B.A. Computer Science, B.A. Mathematics; GPA: 3.52}{Berkeley, CA}
+
+
+    \resumeSubSubheading{
+      Selected Coursework: 
+      \textit{Machine Structures}, 
+      \textit{Data Structures and Algorithms}, 
+      \textit{Discrete Mathematics and Probability} \\ 
+      \textit{Theory}, 
+      \textit{Linear Algebra and Differential Equations}, 
+      \textit{Structure and Interpretation of Computer Programs}.
+      }
   \resumeSubHeadingListEnd
 
 
 %-----------EXPERIENCE-----------
-\section{Experience}
+\section{Professional Experience}
   \resumeSubHeadingListStart
 
     \resumeSubheading
-      {Undergraduate Research Assistant}{June 2020 -- Present}
-      {Texas A\&M University}{College Station, TX}
+      {Software Engineer Intern}{May 2023 -- Aug. 2023}
+      {Meta}{Menlo Park, CA}
       \resumeItemListStart
-        \resumeItem{Developed a REST API using FastAPI and PostgreSQL to store data from learning management systems}
-        \resumeItem{Developed a full-stack web application using Flask, React, PostgreSQL and Docker to analyze GitHub data}
-        \resumeItem{Explored ways to visualize GitHub collaboration in a classroom setting}
+        \resumeItem{Work on a pre-alpha \textbf{advertiser value optimization} feature within the Ads Bidding team.}
+        \resumeItem{Contribute to \textbf{data schema and system design} via comprehensive feasibility studies.}
+        \resumeItem{Collaborate with product designers and market researchers to \textbf{consolidate an alpha} specification.}
+        \resumeItem{Expand the \textbf{Meta Ads Manager} web interface to provide bid multiplier data to the ad delivery system.}
       \resumeItemListEnd
-      
-% -----------Multiple Positions Heading-----------
-%    \resumeSubSubheading
-%     {Software Engineer I}{Oct 2014 - Sep 2016}
-%     \resumeItemListStart
-%        \resumeItem{Apache Beam}
-%          {Apache Beam is a unified model for defining both batch and streaming data-parallel processing pipelines}
-%     \resumeItemListEnd
-%    \resumeSubHeadingListEnd
-%-------------------------------------------
 
     \resumeSubheading
-      {Information Technology Support Specialist}{Sep. 2018 -- Present}
-      {Southwestern University}{Georgetown, TX}
+      {MetaU Engineering Intern}{June 2022 -- Aug. 2022}
+      {Meta}{Menlo Park, CA}
       \resumeItemListStart
-        \resumeItem{Communicate with managers to set up campus computers used on campus}
-        \resumeItem{Assess and troubleshoot computer problems brought by students, faculty and staff}
-        \resumeItem{Maintain upkeep of computers, classroom equipment, and 200 printers across campus}
+        \resumeItem{Learned \textbf{large-scale application design} with the WhatsApp Data Archive and Transport team.}
+        \resumeItem{Participated in a bootcamp-style course on Obj-C and Swift \textbf{iOS development} using UIKit and SwiftUI.}
+        \resumeItem{Designed and implemented a \textbf{task management application} (see ``Process'') as a capstone project.}
     \resumeItemListEnd
 
     \resumeSubheading
-      {Artificial Intelligence Research Assistant}{May 2019 -- July 2019}
-      {Southwestern University}{Georgetown, TX}
+      {Lead Endpoint Engineer}{May 2022 -- Present}
+      {UC Berkeley SAIT}{Berkeley, CA}
       \resumeItemListStart
-        \resumeItem{Explored methods to generate video game dungeons based off of \emph{The Legend of Zelda}}
-        \resumeItem{Developed a game in Java to test the generated dungeons}
-        \resumeItem{Contributed 50K+ lines of code to an established codebase via Git}
-        \resumeItem{Conducted  a human subject study to determine which video game dungeon generation technique is enjoyable}
-        \resumeItem{Wrote an 8-page paper and gave multiple presentations on-campus}
-        \resumeItem{Presented virtually to the World Conference on Computational Intelligence}
+        \resumeItem{Provide advising to \textbf{UC Berkeley IT leaders and CIO} as part of the Student Technology Council.}
+        \resumeItem{\textbf{Lead} an endpoint management team responsible for the security and accessibility of more than 400 devices.}
+        \resumeItem{Maintain campus partnerships and \textbf{oversee organizational work}, such as the hiring of 3 engineers.}
       \resumeItemListEnd
 
   \resumeSubHeadingListEnd
 
 
-%-----------PROJECTS-----------
-\section{Projects}
+%-----------AFFILIATIONS-----------
+\section{Current Affiliations}
     \resumeSubHeadingListStart
-      \resumeProjectHeading
-          {\textbf{Gitlytics} $|$ \emph{Python, Flask, React, PostgreSQL, Docker}}{June 2020 -- Present}
+    \resumeAffiliationSubheading
+    {\textbf{GamesCrafters} $|$ Computational game theory applied research group.}{Jan. 2023 -- Present}
           \resumeItemListStart
-            \resumeItem{Developed a full-stack web application using with Flask serving a REST API with React as the frontend}
-            \resumeItem{Implemented GitHub OAuth to get data from user’s repositories}
-            \resumeItem{Visualized GitHub data to show collaboration}
-            \resumeItem{Used Celery and Redis for asynchronous tasks}
-          \resumeItemListEnd
-      \resumeProjectHeading
-          {\textbf{Simple Paintball} $|$ \emph{Spigot API, Java, Maven, TravisCI, Git}}{May 2018 -- May 2020}
-          \resumeItemListStart
-            \resumeItem{Developed a Minecraft server plugin to entertain kids during free time for a previous job}
-            \resumeItem{Published plugin to websites gaining 2K+ downloads and an average 4.5/5-star review}
-            \resumeItem{Implemented continuous delivery using TravisCI to build the plugin upon new a release}
-            \resumeItem{Collaborated with Minecraft server administrators to suggest features and get feedback about the plugin}
+            \resumeItem{Developed a \textbf{strong solution to Five-Field Kono}, a game of $>10^9$ positions (\href{https://nyc.cs.berkeley.edu/uni/games/fivefieldkono/variants/regular}{\underline{play against solution}}).}
+            \resumeItem{\textbf{Re-architected C codebase} for ergonomics, safety, and multi-processing support (see ``GamesmanNova'').}
+            \resumeItem{Designed an ACID-complianta and write-optimized \textbf{database storage engine} for enabling parallelization in game solves, featuring a write-ahead log, a checkpoint system, and cached in-memory data structures.}
           \resumeItemListEnd
     \resumeSubHeadingListEnd
 
-
-
+%-----------PROJECTS-----------
+\section{Selected Projects}
+    \resumeSubHeadingListStart
+          \resumeProjectHeading
+          {\textbf{GamesmanNova} $|$ Abstract strategy game analysis system.}
+          \resumeItemListStart
+            \resumeItem{System for performing \textbf{full game tree exploration} on deterministic abstract strategy finite-state games, storing and analyzing their complete solutions efficiently, and serving them to one of GamesCrafters' user interfaces.}
+            \resumeItem{Simple \textbf{multithreaded} implementations of solution set analyzer, solving algorithm, and DBMS modules.}
+            \resumeItem{Working on supporting OpenMPI for solves on \textbf{High Performance Computing clusters}.}
+          \resumeItemListEnd
+      \resumeProjectHeading
+          {\textbf{Process} $|$ Task management application for iOS.}
+          \resumeItemListStart
+            \resumeItem{Features many-to-many \textbf{graph of task-subtask relationships}, as opposed to simple or nested lists.}
+            \resumeItem{Served using \textbf{Firebase} Auth, Storage, and Firestore (although Neo4j is better suited for storing graphs of tasks).}
+            \resumeItem{Features a \textbf{recursive UI} for intuitively traversing subtask items, built with Swift and SwiftUI.}
+          \resumeItemListEnd
+    \resumeSubHeadingListEnd
 %
 %-----------PROGRAMMING SKILLS-----------
 \section{Technical Skills}
  \begin{itemize}[leftmargin=0.15in, label={}]
     \small{\item{
-     \textbf{Languages}{: Java, Python, C/C++, SQL (Postgres), JavaScript, HTML/CSS, R} \\
-     \textbf{Frameworks}{: React, Node.js, Flask, JUnit, WordPress, Material-UI, FastAPI} \\
-     \textbf{Developer Tools}{: Git, Docker, TravisCI, Google Cloud Platform, VS Code, Visual Studio, PyCharm, IntelliJ, Eclipse} \\
-     \textbf{Libraries}{: pandas, NumPy, Matplotlib}
+     \textbf{Tools and Frameworks}{: React, SwiftUI, Git, Mercurial, OpenMPI, OpenMP, SQL, Ent.} \\
+     \textbf{GPPLs}{: Rust, C/C++, Java, Swift, Python, JavaScript.} \\
     }}
  \end{itemize}
 
